@@ -56,7 +56,6 @@ async function init() {
     const allIssue = await getAllIssue();
     addRecentMd(allIssue.slice(0, 10));
     addLabelMd(allIssue);
-    console.log('generate readme.md success');
 }
 init();
 //# sourceMappingURL=index.js.map
