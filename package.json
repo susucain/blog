@@ -4,7 +4,8 @@
   "description": "blog",
   "main": "lib/index.js",
   "scripts": {
-    "build": "tsc --outDir dist --watch",
+    "dev": "tsc --outDir dist --watch",
+    "build": "tsc --outDir dist",
     "generate": "node dist/index.js",
     "lint": "eslint --ext .ts,.tsx src",
     "lint:fix": "eslint --fix --ext .ts,.tsx src",

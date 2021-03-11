@@ -21,14 +21,15 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '14'
-          run: npm install
+      - run: yarn
+      - run: yarn build
           
       - name: Generate readme.md
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npm run generate
+        run: yarn generate
         
       - name: Push README
         uses: github-actions-x/commit@v2.6
