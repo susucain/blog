@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tsc --outDir dist --watch",
     "build": "tsc --outDir dist",
-    "generate": "node dist/index.js",
+    "generate": "node dist/index.js --unhandled-rejections=strict",
     "lint": "eslint --ext .ts,.tsx src",
     "lint:fix": "eslint --fix --ext .ts,.tsx src",
     "prepare": "husky install",

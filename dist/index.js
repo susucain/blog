@@ -14,9 +14,10 @@ const addIssueInfo = (issue) => {
     fs_1.default.appendFileSync(md, `[${issue.title}](${issue.html_url})--${time}\n\n`);
 };
 const getAllIssue = async () => {
+    console.log(constants_1.GITHUB_REPOSITORY_OWNER, constants_1.GITHUB_REPOSITORY);
     const res = await octokit.issues.listForRepo({
         owner: constants_1.GITHUB_REPOSITORY_OWNER,
-        repo: constants_1.GITHUB_REPOSITORY,
+        repo: constants_1.GITHUB_REPOSITORY.replace(`${constants_1.GITHUB_REPOSITORY_OWNER}/`, ''),
     });
     return res.data;
 };

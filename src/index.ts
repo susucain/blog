@@ -17,7 +17,7 @@ const addIssueInfo = (issue) => {
 const getAllIssue = async () => {
   const res = await octokit.issues.listForRepo({
     owner: GITHUB_REPOSITORY_OWNER!,
-    repo: GITHUB_REPOSITORY!,
+    repo: GITHUB_REPOSITORY!.replace(`${GITHUB_REPOSITORY_OWNER}/`, ''),
   })
 
   return res.data
