@@ -3,7 +3,7 @@ name: Generate README.md
 on:
   workflow_dispatch:
   issues:
-    types: [opened, edited]
+    types: [opened, edited, deleted, labeled, unlabeled]
 
 env:
   GITHUB_NAME: susucain
