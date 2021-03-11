@@ -5,6 +5,10 @@ on:
   issues:
     types: [opened, edited]
 
+env:
+  GITHUB_NAME: susucain
+  GITHUB_EMAIL: susucain@gmail.com
+
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -36,7 +40,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: 'Refresh README'
-          files: .
+          files: README.md
           rebase: 'true'
-          name: susucain
-          email: susucain@gmail.com
+          name: ${{ env.GITHUB_NAME }}
+          email: ${{ env.GITHUB_EMAIL }}
