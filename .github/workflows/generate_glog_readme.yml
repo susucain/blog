@@ -36,11 +36,8 @@ jobs:
         run: yarn generate
         
       - name: Push README
-        uses: github-actions-x/commit@v2.6
+        uses: EndBug/add-and-commit@v7
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: 'Refresh README'
-          files: .
-          rebase: 'true'
-          name: ${{ env.GITHUB_NAME }}
-          email: ${{ env.GITHUB_EMAIL }}
+          message: 'Refresh README'
+          author_name: ${{ env.GITHUB_NAME }}
+          author_email: ${{ env.GITHUB_EMAIL }}
