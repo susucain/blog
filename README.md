@@ -5,6 +5,8 @@
 收藏点star，订阅点watch。
 
 ## 最近更新
+[盘点工作中遇到的bug（持续更新）](https://github.com/susucain/blog/issues/10)--2021-03-22
+
 [Typescript 4.2新特性一览](https://github.com/susucain/blog/issues/9)--2021-03-13
 
 [Typescript 4.1新特性一览](https://github.com/susucain/blog/issues/5)--2021-03-10
@@ -16,6 +18,9 @@
 [单页应用前端（React）项目部署](https://github.com/susucain/blog/issues/2)--2020-05-09
 
 [zTree插件的一个性能问题](https://github.com/susucain/blog/issues/1)--2020-05-05
+
+## bug
+[盘点工作中遇到的bug（持续更新）](https://github.com/susucain/blog/issues/10)--2021-03-22
 
 ## TypeScript
 [Typescript 4.2新特性一览](https://github.com/susucain/blog/issues/9)--2021-03-13
