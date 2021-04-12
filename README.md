@@ -5,6 +5,8 @@
 收藏点star，订阅点watch。
 
 ## 最近更新
+[ahooks源码分析之usePersistFn](https://github.com/susucain/blog/issues/11)--2021-04-12
+
 [盘点工作中遇到的bug（持续更新）](https://github.com/susucain/blog/issues/10)--2021-03-22
 
 [Typescript 4.2新特性一览](https://github.com/susucain/blog/issues/9)--2021-03-13
