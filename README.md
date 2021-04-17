@@ -5,6 +5,8 @@
 收藏点star，订阅点watch。
 
 ## 最近更新
+[ahooks源码分析之usePrevious](https://github.com/susucain/blog/issues/12)--2021-04-17
+
 [ahooks源码分析之usePersistFn](https://github.com/susucain/blog/issues/11)--2021-04-12
 
 [盘点工作中遇到的bug（持续更新）](https://github.com/susucain/blog/issues/10)--2021-03-22
@@ -22,6 +24,8 @@
 [zTree插件的一个性能问题](https://github.com/susucain/blog/issues/1)--2020-05-05
 
 ## React
+[ahooks源码分析之usePrevious](https://github.com/susucain/blog/issues/12)--2021-04-17
+
 [ahooks源码分析之usePersistFn](https://github.com/susucain/blog/issues/11)--2021-04-12
 
 [React服务端渲染二三事](https://github.com/susucain/blog/issues/3)--2021-02-05
